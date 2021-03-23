@@ -93,7 +93,7 @@ function car1_left(){
 
 function car1_right(){
 
-    if(car1_x <=500){
+    if(car1_x <=700){
 
         car1_x = car1_x + 10;
         console.log("When right arrow is pressed, x =" +car1_x + " | y = " +car1_y);
@@ -149,7 +149,7 @@ function car2_left(){
 
 function car2_right(){
 
-    if(car2_x <=500){
+    if(car2_x <=700){
 
         car2_x = car2_x + 10;
         console.log("When d is pressed, x =" +car2_x + " | y = " +car2_y);
